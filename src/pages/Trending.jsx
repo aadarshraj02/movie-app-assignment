@@ -1,7 +1,7 @@
 import { useMovies } from "../context/MovieContext";
 
-const Home = () => {
-  const { movies, loading } = useMovies(); // Get movies from context
+const Trending = () => {
+  const { movies, loading } = useMovies();
 
   return (
     <div className="container mx-auto px-4 py-6">
@@ -28,4 +28,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Trending;
