@@ -29,11 +29,6 @@ function Navbar() {
                 icon: <Star className="h-5 w-5 mr-2" />,
               },
               {
-                name: "Trending",
-                path: "/trending",
-                icon: <List className="h-5 w-5 mr-2" />,
-              },
-              {
                 name: "Search",
                 path: "/search",
                 icon: <Search className="h-5 w-5 mr-2" />,
@@ -93,11 +88,6 @@ function Navbar() {
                   name: "Home",
                   path: "/",
                   icon: <Star className="h-5 w-5 mr-3 text-cyan-300" />,
-                },
-                {
-                  name: "Trending",
-                  path: "/trending",
-                  icon: <List className="h-5 w-5 mr-3 text-pink-300" />,
                 },
                 {
                   name: "Search",
