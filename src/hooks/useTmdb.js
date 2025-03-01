@@ -26,3 +26,15 @@ export const fetchTrendingMovies = async () => {
     return [];
   }
 };
+
+export const fetchMoviesBySearch = async (query) => {
+  try {
+    const response = await axios.get(`${BASE_URL}/search/movie`, {
+      params: { api_key: API_KEY, query },
+    });
+    return response.data.results;
+  } catch (error) {
+    console.error("Error fetching search results:", error);
+    return [];
+  }
+};
