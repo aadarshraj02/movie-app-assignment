@@ -15,6 +15,8 @@ A movie discovery app where you can explore movies, mark them as favorites, and 
 
 You can try out the live version of the app 
 
+https://movie-app-assignment.vercel.app/
+
 
 
 ## Technologies Used
@@ -33,8 +35,8 @@ To get started with the project locally, follow the instructions below:
 ### 1. Clone the repository
 
 ```bash
-git 
-cd movie-app
+git https://github.com/aadarshraj02/movie-app-assignment
+cd movie-app 
 
 npm install
 
